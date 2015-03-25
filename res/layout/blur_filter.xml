@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:id="@+id/linearLayout_blur_filter">
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="match_parent">
+			    <TableLayout android:layout_height="match_parent" android:id="@+id/tableLayout1" android:layout_width="match_parent">
+			        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			            <TextView android:id="@+id/textView_select_style"  android:padding="2dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:text="@string/dialog_blur_style"></TextView>
+			        </TableRow>
+			        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			        	<RadioGroup android:id="@+id/radioGroup_style" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			          	<RadioButton android:id="@+id/style_radio0" android:layout_width="wrap_content" android:checked="true" android:text="@string/dialog_blur_style_side" android:textSize="18dp" android:layout_height="50dp"></RadioButton>
+			            <RadioButton android:id="@+id/style_radio1" android:layout_width="wrap_content" android:text="@string/dialog_blur_style_vertical" android:textSize="18dp" android:layout_height="50dp"></RadioButton>
+			            <RadioButton android:id="@+id/style_radio2" android:layout_width="wrap_content" android:text="@string/dialog_blur_style_side_vertical" android:textSize="18dp" android:layout_height="50dp"></RadioButton>
+			            <RadioButton android:id="@+id/style_radio3" android:layout_width="wrap_content" android:text="@string/dialog_blur_style_circle" android:textSize="18dp" android:layout_height="50dp"></RadioButton>
+			            <RadioButton android:id="@+id/style_radio4" android:layout_width="wrap_content" android:text="@string/dialog_blur_style_all" android:textSize="18dp" android:layout_height="50dp"></RadioButton>
+			        	</RadioGroup>
+			        </TableRow>
+			        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			        		<TextView android:id="@+id/textView_select_level"  android:padding="2dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:text="@string/dialog_blur_level"></TextView>
+			        </TableRow>
+			        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			        	<RadioGroup android:id="@+id/radioGroup_level" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			          	<RadioButton android:id="@+id/level_radio0" android:layout_width="wrap_content" android:checked="true" android:textSize="18dp" android:layout_height="50dp" android:text="@string/dialog_blur_level_light"></RadioButton>
+			            <RadioButton android:id="@+id/level_radio1" android:layout_width="wrap_content" android:textSize="18dp" android:layout_height="50dp" android:text="@string/dialog_blur_level_middle"></RadioButton>
+			            <RadioButton android:id="@+id/level_radio2" android:layout_width="wrap_content" android:textSize="18dp" android:layout_height="50dp" android:text="@string/dialog_blur_level_heavy"></RadioButton>
+			        	</RadioGroup>
+			        </TableRow>
+
+			        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			        		<TextView android:id="@+id/textView_select_width"  android:padding="2dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:text="@string/dialog_blur_width"></TextView>
+			        </TableRow>
+			        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="false">
+			        	<RadioGroup android:id="@+id/radioGroup_width" android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="false">
+			          	<RadioButton android:id="@+id/width_radio0" android:layout_width="wrap_content" android:checked="true" android:textSize="18dp" android:layout_height="50dp" android:text="@string/dialog_blur_width_small"></RadioButton>
+			            <RadioButton android:id="@+id/width_radio1" android:layout_width="wrap_content" android:textSize="18dp" android:layout_height="50dp" android:text="@string/dialog_blur_width_middle" android:checked="true"></RadioButton>
+			            <RadioButton android:id="@+id/width_radio2" android:layout_width="wrap_content" android:textSize="18dp" android:layout_height="50dp" android:text="@string/dialog_blur_width_large"></RadioButton>
+			        	</RadioGroup>
+			        </TableRow>
+			    </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

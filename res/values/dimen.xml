@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontsize">16dp</dimen>
+    <integer-array name="pensize_array">
+        <item>6</item>
+        <item>10</item>
+        <item>14</item>
+        <item>18</item>
+        <item>22</item>
+        <item>26</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </integer-array>
+		<drawable name="pickupwindow">#FFFFFFFF</drawable>
+		<item format="dimension" type="style" name="android:windowBackground">@drawable/pickupwindow</item>
+</resources>

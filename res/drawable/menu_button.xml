@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- ﾎﾞﾀﾝ有効、ﾎﾞﾀﾝ押下時 -->
+   <item android:state_enabled="true" android:state_pressed="true">
+   	<color android:color="@color/light_yellow"></color>
+   </item>
+   <!-- ﾎﾞﾀﾝ有効、ﾎﾞﾀﾝ通常時 -->
+   <item android:state_enabled="true" android:state_pressed="false">
+   	<color android:color="@color/clear"></color>
+   </item>
+   <!-- ﾎﾞﾀﾝ無効、ﾎﾞﾀﾝ押下時 -->
+   <item android:state_enabled="false" android:state_pressed="true">
+   	<color android:color="@color/clear"></color>
+   </item>
+   <!-- ﾎﾞﾀﾝ無効、ﾎﾞﾀﾝ通常時 -->
+   <item android:state_enabled="false" android:state_pressed="false">
+   	<color android:color="@color/clear"></color>
+   </item>
+</selector>

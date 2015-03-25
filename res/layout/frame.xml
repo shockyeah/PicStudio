@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+	android:id="@+id/frameLayout_palette" android:background="@color/black">
+    <HorizontalScrollView android:id="@+id/horizontalScrollView_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal|bottom" android:scrollbars="horizontal">
+	    <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+	      <ImageButton android:id="@+id/imageButton_color" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/pallet" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_size" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/bold" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_effect" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/effect" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_text" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/type" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_revert" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/revert" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_clear" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/clear" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_graphic" android:layout_height="60dp" android:layout_width="60dp" android:src="@drawable/graphic" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_camera" android:layout_height="60dp" android:layout_width="60dp" android:src="@drawable/camera" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_load" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/load" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <ImageButton android:id="@+id/imageButton_save" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/save" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        <!--
+        <ImageButton android:id="@+id/imageButton_share" android:layout_width="60dp" android:layout_height="60dp" android:src="@android:drawable/ic_menu_share" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+        -->
+        <ImageButton android:id="@+id/imageButton_close" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/close" android:background="@drawable/menu_button" android:padding="2dp"></ImageButton>
+      </LinearLayout>
+    </HorizontalScrollView>
+</FrameLayout>

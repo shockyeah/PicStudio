@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PicStudio</string>
+    <string name="app_folder">PicStudio</string>
+    <string name="menu_color"> 色 </string>
+    <string name="menu_bgcolor"> 背景色 </string>
+    <string name="menu_effect"> 特殊効果 </string>
+    <string name="menu_pen"> ペン </string>
+    <string name="menu_size"> 太さ </string>
+    <string name="menu_mode"> モード </string>
+    <string name="menu_plain"> なし </string>
+    <string name="menu_emboss"> ３Ｄ </string>
+    <string name="menu_blur"> スプレー </string>
+    <string name="menu_revert"> 元に戻す </string>
+    <string name="menu_erase"> 消しゴム </string>
+    <string name="menu_clear"> 全消去 </string>
+    <string name="menu_load"> 読込 </string>
+    <string name="menu_save"> 保存 </string>
+    <string name="menu_setting"> 設定 </string>
+    <string name="menu_close"> 終了 </string>
+    <string name="menu_type"> 画像タイプ </string>
+    <string name="menu_text">テキスト</string>
+    <string name="dialog_ok"> OK </string>
+    <string name="dialog_yes"> はい </string>
+    <string name="dialog_no"> いいえ </string>
+    <string name="dialog_open"> 開く </string>
+    <string name="dialog_save"> 保存 </string>
+    <string name="dialog_apply"> 適用 </string>
+    <string name="dialog_save_close"> 保存 </string>
+    <string name="dialog_discard_close"> 破棄 </string>
+    <string name="dialog_share"> 共有 </string>
+    <string name="dialog_close"> 閉じる </string>
+    <string name="dialog_parent"> 上へ </string>
+    <string name="dialog_cancel"> キャンセル </string>
+    <string name="dialog_label_width"> 出力画像サイズ横 </string>
+    <string name="dialog_label_height"> 出力画像サイズ縦 </string>
+    <string name="dialog_filename"> ファイル名 </string>
+    <string name="dialog_alreadyexist"> ファイルが既に存在します。別の場所にするか、ファイル名を変更して下さい。 </string>
+    <string name="dialog_color_select">色を選択して下さい</string>
+    <string name="dialog_size_select">太さを選択して下さい</string>
+    <string name="dialog_effect_select">エフェクトを選択して下さい</string>
+    <string name="dialog_mode_select">タイプを選択して下さい</string>
+    <string name="dialog_brightness_select">明度を調節して下さい</string>
+    <string name="dialog_chroma_select">彩度を調節して下さい</string>
+    <string name="dialog_graphic_select">画像効果を選択して下さい</string>
+    <string name="dialog_input_text">テキストを入力して下さい</string>
+    <string name="dialog_clear_confirm">イメージを初期化します。宜しいですか？写真選択後の状態に戻ります。\nバックアップデータは破棄されます。</string>
+    <string name="dialog_close_confirm">終了します。\n編集中のデータを保存しますか？</string>
+    <string name="dialog_save_confirm">画像を保存します。\n宜しいですか？</string>
+    <string name="dialog_saving">保存しています。\nしばらくお待ちください。</string>
+    <string name="dialog_save_completed">保存完了</string>
+    <string name="dialog_save_failed">保存失敗</string>
+    <string name="dialog_save_completed_message">以下のフォルダへ画像を保存しました。この画像を共有しますか？\n</string>
+    <string name="dialog_save_failed_message">以下のフォルダへの画像保存に失敗しました。\n</string>
+    <string name="dialog_grphic_executing">画像効果を実行中です\nしばらくお待ち下さい</string>
+    <string name="dialog_color_filter_select">カラーフィルターを調節して下さい</string>
+    <string name="dialog_restore_select">編中途中のデータが存在します。復旧しますか？\n「いいえ」を選択した場合は、復旧データが削除されます。</string>
+    <string name="dialog_alpha"> 透度 </string>
+    <string name="dialog_red"> 赤 </string>
+    <string name="dialog_green"> 緑 </string>
+    <string name="dialog_blue"> 青 </string>
+    <string name="dialog_blur_select"> ぼかし効果を選択して下さい </string>
+    <string name="dialog_blur_style"> スタイル </string>
+    <string name="dialog_blur_level"> 強さ </string>
+    <string name="dialog_blur_width"> 幅 </string>
+    <string name="dialog_blur_style_side"> 左右 </string>
+    <string name="dialog_blur_style_vertical"> 上下 </string>
+    <string name="dialog_blur_style_side_vertical"> 上下左右 </string>
+    <string name="dialog_blur_style_circle"> 円 </string>
+    <string name="dialog_blur_style_all"> 全体 </string>
+    <string name="dialog_blur_level_light"> 弱 </string>
+    <string name="dialog_blur_level_middle"> 中 </string>
+    <string name="dialog_blur_level_heavy"> 強 </string>
+    <string name="dialog_blur_width_small"> 狭く </string>
+    <string name="dialog_blur_width_middle"> 通常 </string>
+    <string name="dialog_blur_width_large"> 広く </string>
+    <string name="toast_start">下のメニューは横スライド出来ます。\nメニューボタンを押すとメニューの表示／非表示が切り替えられます。</string>
+    <string name="toast_restore_success">データの復旧に成功しました</string>
+    <string name="toast_restore_fail">データの復旧に失敗しました</string>
+    <string name="error_exception">申し訳御座いません。\nプログラムの内部処理でエラーが発生しました。</string>
+    <string name="error_bitmap_size">申し訳御座いません。\n画像ファイルのサイズが大きいため、読み込みに失敗しました。</string>
+    <string name="error_ioexception">申し訳御座いません。\nファイルの入出力処理でエラーが発生しました。指定したファイルが正しいか確認して下さい。</string>
+    <string-array name="effect_array">
+    		<item>なし</item>
+    		<item>エンボス</item>
+    		<item>ブラー</item>
+        <item>ブラーインナー</item>
+        <item>ブラーアウター</item>
+        <item>ブラーソリッド</item>
+    </string-array>
+    <string-array name="graphic_array">
+        <item>明度</item>
+    		<item>彩度</item>
+    		<item>カラーフィルター</item>
+        <item>トイカメラ</item>
+        <item>セピア</item>
+        <item>モノクロ</item>
+        <!-- <item>ネガ</item> -->
+        <item>白黒</item>
+        <item>モザイク</item>
+        <!-- <item>ぼかし</item> -->
+        <item>ぼかし左右（弱）</item>
+        <item>ぼかし左右（中）</item>
+        <item>ぼかし左右（強）</item>
+        <item>ぼかし上下（弱）</item>
+        <item>ぼかし上下（中）</item>
+        <item>ぼかし上下（強）</item>
+        <item>ぼかし上下左右（弱）</item>
+        <item>ぼかし上下左右（中）</item>
+        <item>ぼかし上下左右（強）</item>
+        <item>ぼかし円（弱）</item>
+        <item>ぼかし円（中）</item>
+        <item>ぼかし円（強）</item>
+        <item>ぼかし全体（弱）</item>
+        <item>ぼかし全体（中）</item>
+        <item>ぼかし全体（強）</item>
+    </string-array>
+    <string-array name="graphic_array_name">
+        <item>明度</item>
+    		<item>彩度</item>
+    		<item>カラーフィルター</item>
+        <item>トイカメラ</item>
+        <item>セピア</item>
+        <item>モノクロ</item>
+        <!-- <item>ネガ</item> -->
+        <item>白黒</item>
+        <item>モザイク</item>
+        <item>ぼかし</item>
+    </string-array>
+</resources>

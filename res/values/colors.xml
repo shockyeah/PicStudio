@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clear">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="orange">#FF8000</color>
+    <color name="purple">#8000FF</color>
+    <color name="pink">#FF00FF</color>
+    <color name="brown">#800000</color>
+    <color name="light_red">#FFC4C4</color>
+    <color name="light_green">#C4FFC4</color>
+    <color name="light_blue">#C4C4FF</color>
+    <color name="light_yellow">#FFFFC0</color>
+    <color name="light_aqua">#C4FFFF</color>
+    <color name="light_orange">#FFC480</color>
+    <color name="light_purple">#C480FF</color>
+    <color name="light_pink">#FFC4FF</color>
+    <color name="light_brown">#FFC480</color>
+    <color name="light_gray">#C4C4C4</color>
+    <color name="dark_red">#400000</color>
+    <color name="dark_green">#004000</color>
+    <color name="dark_blue">#000040</color>
+    <color name="dark_yellow">#404000</color>
+    <color name="dark_aqua">#004040</color>
+    <color name="dark_orange">#804000</color>
+    <color name="dark_purple">#400080</color>
+    <color name="dark_pink">#400040</color>
+    <color name="dark_brown">#400000</color>
+    <color name="dark_gray">#404040</color>
+</resources>

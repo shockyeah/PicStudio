@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PicStudio</string>
+    <string name="app_folder">PicStudio</string>
+    <string name="menu_color">Color</string>
+    <string name="menu_bgcolor">Background color</string>
+    <string name="menu_pen">Pen</string>
+    <string name="menu_effect">Effect</string>
+    <string name="menu_size">Size</string>
+    <string name="menu_mode"> Mode </string>
+    <string name="menu_plain">Plain</string>
+    <string name="menu_emboss">Emboss</string>
+    <string name="menu_blur">Blur</string>
+    <string name="menu_revert">Revert</string>
+    <string name="menu_erase">Erase</string>
+    <string name="menu_clear">Clear</string>
+    <string name="menu_load"> Load </string>
+    <string name="menu_save">Save</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_close">Close</string>
+    <string name="menu_type">Image Type</string>
+    <string name="menu_text">Text</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_apply">Apply</string>
+    <string name="dialog_open">Open</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_save_close">Save</string>
+    <string name="dialog_discard_close">Erase</string>
+    <string name="dialog_share">Share</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_parent">Parent</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_label_width">Width size on output</string>
+    <string name="dialog_label_height">Height size on output</string>
+    <string name="dialog_filename">Filename</string>
+    <string name="dialog_alreadyexist">Already exist file, please change directory or file name.</string>
+    <string name="dialog_color_select">Please select color</string>
+    <string name="dialog_size_select">Please select size</string>
+    <string name="dialog_effect_select">Please select effect</string>
+    <string name="dialog_mode_select">Please select type</string>
+    <string name="dialog_brightness_select">Please control brightness</string>
+    <string name="dialog_chroma_select">Please control chroma</string>
+    <string name="dialog_graphic_select">Please select graphic effect</string>
+    <string name="dialog_input_text">Input text</string>
+    <string name="dialog_clear_confirm">Are you sure clear?Return to a state after the image choice.\nThe backup data are canceled.</string>
+    <string name="dialog_close_confirm">Are you sure finish?</string>
+    <string name="dialog_save_confirm">Are you sure saving?</string>
+    <string name="dialog_saving">Save to device. \nPlease wait for a while.</string>
+    <string name="dialog_save_completed">Save Completed</string>
+    <string name="dialog_save_failed">Save Failed</string>
+    <string name="dialog_save_completed_message">Picture was saved into the following folder.Do you share this image?\n</string>
+    <string name="dialog_save_failed_message">Picture saving was failed into the following folder.</string>
+    <string name="dialog_grphic_executing">Effect executing.\nPlease wait for a while.</string>
+    <string name="dialog_color_filter_select">Please control color filter.</string>
+    <string name="dialog_restore_select">The Editing data exist.restore now？\nThe editing data are deleted,if you select no.</string>
+    <string name="dialog_alpha"> Alpha </string>
+    <string name="dialog_red"> Red </string>
+    <string name="dialog_green"> Green </string>
+    <string name="dialog_blue"> Blue </string>
+    <string name="dialog_blur_select">Please select blur setting</string>
+    <string name="dialog_blur_style">Style</string>
+    <string name="dialog_blur_level">Level</string>
+    <string name="dialog_blur_width">Width</string>
+    <string name="dialog_blur_style_side">Side</string>
+    <string name="dialog_blur_style_vertical">Vertical</string>
+    <string name="dialog_blur_style_side_vertical">Side and Vertical</string>
+    <string name="dialog_blur_style_circle">Circle</string>
+    <string name="dialog_blur_style_all">All</string>
+    <string name="dialog_blur_level_light">Light</string>
+    <string name="dialog_blur_level_middle">Middle</string>
+    <string name="dialog_blur_level_heavy">Heavy</string>
+    <string name="dialog_blur_width_small">Small</string>
+    <string name="dialog_blur_width_middle">Middle</string>
+    <string name="dialog_blur_width_large">Large</string>
+    <string name="toast_start">You can scroll to horizontal on bottom menu.\nYou can be invisible menu when you push the menu button.</string>
+    <string name="toast_restore_success">Restore success.</string>
+    <string name="toast_restore_fail">Sorry,Restore fail.</string>
+    <string name="error_exception">Sorry, program error occured</string>
+    <string name="error_bitmap_size">Sorry, Image file is too big. So program could not load file.</string>
+    <string name="error_ioexception">Sorry, input or output error occured.Please confirm file.</string>
+    <string-array name="effect_array">
+    		<item>Normal</item>
+    		<item>Emboss</item>
+    		<item>Blur Normal</item>
+        <item>Blur Inner</item>
+        <item>Blur Outer</item>
+        <item>Blur Solid</item>
+    </string-array>
+    <string-array name="graphic_array">
+    		<item>Brightness</item>
+    		<item>Chroma</item>
+    		<item>Color Filter</item>
+        <item>Toy Camera</item>
+        <item>Sepia</item>
+        <item>Monochrome</item>
+        <!-- <item>Nega</item>  -->
+        <item>White and Black</item>
+        <item>Mosaic</item>
+        <!-- <item>Blur</item> -->
+        <item>Blur Side (light)</item>
+        <item>Blur Side (normal)</item>
+        <item>Blur Side (heavy)</item>
+        <item>Blur Vertical (light)</item>
+        <item>Blur Vertical (normal)</item>
+        <item>Blur Vertical (heavy)</item>
+        <item>Blur Side and Vertical (light)</item>
+        <item>Blur Side and Vertical (normal)</item>
+        <item>Blur Side and Vertical (heavy)</item>
+        <item>Blur Circle (light)</item>
+        <item>Blur Circle (normal)</item>
+        <item>Blur Circle (heavy)</item>
+        <item>Blur All (light)</item>
+        <item>Blur All (normal)</item>
+        <item>Blur All (heavy)</item>
+    </string-array>
+    <string-array name="graphic_array_name">
+    		<item>Brightness</item>
+    		<item>Chroma</item>
+    		<item>Color Filter</item>
+        <item>Toy Camera</item>
+        <item>Sepia</item>
+        <item>Monochrome</item>
+        <!-- <item>Nega</item>  -->
+        <item>White and Black</item>
+        <item>Mosaic</item>
+        <item>Blur</item>
+    </string-array>
+</resources>
